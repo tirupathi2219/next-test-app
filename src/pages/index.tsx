@@ -3,7 +3,7 @@ import styles from '@/styles/Main.module.css'
 export default function Main() {
     return (
         <div className={styles.Main}>
-            <h1>Welcome to Next</h1>
+            <h1 style={{backgroundColor:'beige'}}>Welcome to Next</h1>
             <Header/>
         </div>
     )
